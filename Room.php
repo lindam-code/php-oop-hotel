@@ -1,6 +1,6 @@
 <?php
 class Room {
-  public $room_number;
+  protected $room_number;
 
   public $floor;
 

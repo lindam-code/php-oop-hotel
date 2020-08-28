@@ -24,7 +24,7 @@
     $rooms[] = $room;
     var_dump($room->getRoomData());
   }
-  var_dump($rooms);
+  // var_dump($rooms);
 
 
 ?>
