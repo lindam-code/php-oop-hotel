@@ -12,7 +12,7 @@ class Room {
     $this->beds = $_beds;
   }
 
-  public function getDataRoom() {
+  public function getRoomData() {
     $room_array = [
       'room_number' => $this->room_number,
       'floor' => $this->floor,

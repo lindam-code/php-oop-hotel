@@ -21,8 +21,10 @@
   ];
   foreach ($stanze as $stanza) {
     $room = new Room($stanza['room_number'],$stanza['floor'],$stanza['beds']);
-    var_dump($room->getDataRoom());
+    $rooms[] = $room;
+    var_dump($room->getRoomData());
   }
+  var_dump($rooms);
 
 
 ?>
